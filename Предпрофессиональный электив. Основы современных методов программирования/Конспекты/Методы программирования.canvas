@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"f01a1e9e417135ce","type":"text","text":"Методы программирования","x":-125,"y":-30,"width":305,"height":60},
+		{"id":"fffabaf801cdf40f","type":"text","text":"Систематические","x":-375,"y":86,"width":250,"height":60},
+		{"id":"9e342acecf89cb31","type":"text","text":"- [[1. - 13.02.2024 - Основы современных методов программирования.#Модульный метод|Модульный метод]]\n- [[1. - 13.02.2024 - Основы современных методов программирования.#Структурный метод|Структурный метод]]\n- ООП\n- UML\n- Компонентный метод\n- Аспектно- ориентированный","x":-375,"y":198,"width":250,"height":262},
+		{"id":"be723f75fb3e1bef","type":"text","text":"Теоретическое","x":180,"y":86,"width":250,"height":60},
+		{"id":"447a591122fa832f","type":"text","text":"- Агентный метод\n- Алгебраический метод\n- Композиционный метод\n- Дискрептивный","x":180,"y":198,"width":250,"height":229}
+	],
+	"edges":[
+		{"id":"b611eb1139635092","fromNode":"f01a1e9e417135ce","fromSide":"bottom","toNode":"fffabaf801cdf40f","toSide":"top"},
+		{"id":"39fb1ffa902f6499","fromNode":"f01a1e9e417135ce","fromSide":"bottom","toNode":"be723f75fb3e1bef","toSide":"top"},
+		{"id":"c0aa062c70d50ff5","fromNode":"fffabaf801cdf40f","fromSide":"bottom","toNode":"9e342acecf89cb31","toSide":"top"},
+		{"id":"9299fbfffc8b3d04","fromNode":"be723f75fb3e1bef","fromSide":"bottom","toNode":"447a591122fa832f","toSide":"top"}
+	]
+}
